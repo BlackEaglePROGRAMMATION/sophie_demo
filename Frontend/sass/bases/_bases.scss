@@ -1,0 +1,41 @@
+body {
+	max-width: 1440px;
+	margin: auto;
+
+    background-color: $background-color;
+	font-family: 'Work Sans' ;
+	font-size: 14px;
+}
+
+main {
+    min-height: 85vh;
+    @include flx-column;
+    align-items: center;
+}
+
+input,
+select {
+    padding: 0 15px;
+    font-size: 20px;
+    box-shadow: 0 4px 14px #00000017;
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+textarea {
+    box-shadow: 0 4px 14px #00000017;
+    outline: none;
+    border: none;
+    resize: none;
+}
